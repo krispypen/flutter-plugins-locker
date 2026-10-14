@@ -15,8 +15,8 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'flutter_locker/Sources/flutter_locker/**/*.swift'
   s.dependency 'Flutter'
-  s.dependency 'Locker', '~> 3.0.4'
-  s.platform = :ios, '10.0'
+  s.dependency 'Locker', '~> 3.3.0'
+  s.platform = :ios, '15.0'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

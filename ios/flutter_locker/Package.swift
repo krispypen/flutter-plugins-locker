@@ -6,13 +6,13 @@ import PackageDescription
 let package = Package(
     name: "flutter_locker",
     platforms: [
-        .iOS("12.0")
+        .iOS("15.0")
     ],
     products: [
         .library(name: "flutter-locker", targets: ["flutter_locker"])
     ],
     dependencies: [
-        .package(url: "https://github.com/infinum/Locker.git", from: "3.0.4")
+        .package(url: "https://github.com/infinum/Locker.git", .upToNextMinor(from: "3.3.0"))
     ],
     targets: [
         .target(
