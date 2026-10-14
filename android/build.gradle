@@ -48,7 +48,7 @@ android {
     }
 
     dependencies {
-        implementation "androidx.biometric:biometric-ktx:1.1.0"
+        implementation "androidx.biometric:biometric:1.1.0"
         implementation "com.infinum:goldfinger:2.2.0"
 
         testImplementation "org.jetbrains.kotlin:kotlin-test"
